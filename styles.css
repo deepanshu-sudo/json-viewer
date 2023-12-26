@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#jsonTable {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#jsonTable, #jsonTable th, #jsonTable td {
+    border: 1px solid #ddd;
+}
+
+#jsonTable th, #jsonTable td {
+    padding: 10px;
+    text-align: left;
+}
+
+#jsonTable th {
+    background-color: #f2f2f2;
+}
+
+#tableBody tr.selected {
+    background-color: #ffff99; 
+    border: 2px solid #ff9900; 
+}
